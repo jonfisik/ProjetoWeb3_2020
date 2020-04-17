@@ -1,0 +1,10 @@
+/*Limpar formtação padrão*/
+*{
+    margin: 0px;
+    padding: opx;
+}
+body{
+    font-size: 1em; /*16px*/
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
+}
