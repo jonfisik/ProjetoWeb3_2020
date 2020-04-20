@@ -22,9 +22,9 @@ body{
     margin: 0 auto;
     padding: 15px;
 }
-#area-postagem, #area-lateral{
+/*#area-postagem, #area-lateral{
     background: orange;
-}
+} - usando para teste*/
 #area-postagem{
     width: 660px;
     float: left;
@@ -37,6 +37,16 @@ body{
     padding: 20px;
     margin-bottom: 20px;
     background: white;
+}
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
 }
 #rodape{
     clear: both;
@@ -72,6 +82,11 @@ h1{
 }
 h2{
     color: #f7b600;
+}
+h3{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
 }
 .branco{
     color: white;
