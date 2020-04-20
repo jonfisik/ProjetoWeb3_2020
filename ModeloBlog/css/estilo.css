@@ -59,6 +59,7 @@ body{
 a{
     text-decoration: none;
     padding: 8px 12px;
+    color: #f7b600;
 }
 #a:link, a:visited{
     color: #f7b600;
