@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <title>Jonatan Paschoal</title>
 </head>
 <style>
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
+    font-family: 'Fjalla One', sans-serif;
 }
 #topMenu{
     display: flex;
@@ -21,15 +27,120 @@ body{
     display: block;
     padding: 15px;
 }
+#topMenu li:first-child{
+    margin-right: auto;
+}
+.section1{
+    display: flex;
+    height: 100vh;
+    background-color: #22d271;
+}
+.section2{
+    display: flex;
+    background-color: white;
+    width: 33vh;
+}
+.section3{
+    display: flex;
+    background-color: #e5e6ea;
+    width: 33vh;
+}
+.centralize{
+    margin: auto;
+    text-align:justify;
+}
+.imagemProjeto{
+    width: 30vh;
+    height: 30vh;
+    padding-left: 15px;
+}
+.botaoVermelho{
+    background-color: #c64e63;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-family: 'Fjalla One', sans-serif;
+}
+table{
+    width: 90%;
+}
+footer{
+    background-color: black;
+    padding: 30px;
+    color: white;
+}
 </style>
 <body>
     <nav>
         <ul id="topMenu">
-            <li>Home</li>
             <li>Logo</li>
+            <li>Home</li>
             <li>Projetos</li>
             <li>Contato</li>
         </ul>
     </nav>
+    <div class="section1">
+        <div class="centralize">
+            <h1 style="color: white;">Jonatan</h1>
+            <a href="#projetos"><button class="botaoVermelho">Meus Projetos</button></a>
+        </div>
+    </div>
+    <div id="projetos" class="section2 centralize">
+        <table>
+            <tr>
+                <td width="40%"><img class="imagemProjeto" src="imagens/imagem1.png"></td>
+                <td width="60%; text-align left">
+                    <ul style="color: #22d271;">
+                    Projeto 1
+                    <hr>
+                    <li>Descrição projeto Descrição projetoDescrição projetoDescrição projetoDescrição projetoDescrição projetoDescrição projetoDescrição projeto</li>
+                    <li>Tecnologia 1</li>
+                    <li>Tecnologia 2</li>
+                    <li>Tecnologia 3</li>
+                    <li>Tecnologia 4</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="projetos" class="section3 centralize">
+        <table class="centralize">
+            <tr>
+                <td width="60%; text-align left">
+                    <ul style="color: #22d271;">
+                    Projeto 2
+                    <hr>
+                    <li>Descrição projeto Descrição projetoDescrição projetoDescrição projetoDescrição projetoDescrição projetoDescrição projetoDescrição projeto</li>
+                    <li>Tecnologia 1</li>
+                    <li>Tecnologia 2</li>
+                    <li>Tecnologia 3</li>
+                    <li>Tecnologia 4</li>
+                    </ul>
+                </td>
+                <td width="40%"><img class="imagemProjeto" src="imagens/imagem1.png"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="projetos" class="section2 centralize">
+        <table class="centralize">
+            <tr>
+                <td width="40%"><img class="imagemProjeto" src="imagens/imagem1.png"></td>
+                <td width="60%; text-align left">
+                    <ul style="color: #22d271;">
+                    Projeto 3
+                    <hr>
+                    <li>Descrição projeto Descrição projetoDescrição projetoDescrição projetoDescrição projetoDescrição projetoDescrição projetoDescrição projeto</li>
+                    <li>Tecnologia 1</li>
+                    <li>Tecnologia 2</li>
+                    <li>Tecnologia 3</li>
+                    <li>Tecnologia 4</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <footer style="text-align: center; margin: auto;">
+        <h5>@Criado por Jonatan</h5>
+    </footer>
 </body>
 </html>
