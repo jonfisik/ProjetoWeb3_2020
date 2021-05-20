@@ -19,12 +19,12 @@
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c2b503101a.js" crossorigin="anonymous"></script>
     <style>
-        .foto-perfil {
+        /*.foto-perfil {
             height: 100%;
             width: auto;
             max-width: 100%;
             border-radius: 50%;
-        }
+        }*/
     </style>
 </head>
 
@@ -58,7 +58,11 @@
     </nav>
     <section class="jumbotron text-center">
         <div class="container">
-            <img class="foto-perfil" src="./imagens/foto.jpeg" alt="">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <img style="border-radius: 50%;" class="foto-perfil img-fluid" src="./imagens/foto.jpeg" alt="">
+                </div>
+            </div>
             <h1 class="jumbotron-heading">Jonatan Paschoal</h1>
             <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator,
                 etc.</p>
@@ -74,7 +78,7 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
                         <img class="card-img-top"
                             data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
@@ -92,12 +96,10 @@
                             </ul>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="#"><button type="button"
-                                            class="btn btn-sm btn-outline-success">View</button></a>
-                                    <a href=""><button type="button"
-                                            class="btn btn-sm btn-outline-primary">Edit</button></a>
+                                    <a href="#"><button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
+                                    <a href="#"><button type="button" class="btn btn-sm btn-outline-primary">Código</button></a>
                                 </div>
-                                <small class="text-muted">9 mins</small>
+                                
                             </div>
                         </div>
                     </div>
@@ -114,8 +116,8 @@
                                 additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button>
-                                    <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                                    <a href="#"><button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button></a>
+                                    <a href="#"><button type="button" class="btn btn-sm btn-outline-primary">Código</button></a>
                                 </div>
                             </div>
                         </div>
