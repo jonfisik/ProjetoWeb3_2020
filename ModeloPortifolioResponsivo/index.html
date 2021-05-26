@@ -64,7 +64,10 @@
            margin: 0px; 
            padding-top: 15px;
            padding-bottom: 15px;
-        
+        }
+        html{
+            scroll-behavior: smooth;
+        }
 </style>
 </head>
 
@@ -82,16 +85,16 @@
             </ul>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link textoBranco" href="#">Projetos</a>
+                    <a class="nav-link textoBranco" href="#projetos">Projetos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link textoBranco" href="#">Sobre mim</a>
+                    <a class="nav-link textoBranco" href="#sobre-mim">Sobre mim</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link textoBranco" href="#">Depoimento</a>
+                    <a class="nav-link textoBranco" href="#depoimentos">Depoimento</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link textoBranco" href="#">Contato</a>
+                    <a class="nav-link textoBranco" href="#contatos">Contato</a>
                 </li>
             </ul>
         </div>
@@ -107,14 +110,14 @@
             <p class="lead textoBranco">Something short and leading about the collection below—its contents, the creator,
                 etc.</p>
             <p>
-                <a href="#" class="btn btn-dark my-2">Contato</a>
+                <a href="#contatos" class="btn btn-dark my-2">Contato</a>
             </p>
             <a href="##"><i class="textoBranco fab fa-linkedin"></i></a>
             <a href="##"><i class="textoBranco icones fab fa-github"></i></a>
             <a href="##"><i class="textoBranco icones fab fa-instagram"></i></a>
         </div>
     </section>
-    <div class="album py-5 bg-light">
+    <div class="album py-5 bg-light" id="projetos">
         <div class="container">
             <h2 class="jumbotron-heading text-center titulosVerdes">Projetos</h2>
             <div class="row">
@@ -200,14 +203,14 @@
     </div>
     <!--Sobre Mim-->
     <section class="jumbotron text-center corPrimaria">
-        <div class="container">
+        <div class="container" id="sobre-mim">
             <h2 class="jumbotron-heading titulosBrancos">Sobre Mim</h2>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id doloribus eligendi vitae minus quae incidunt obcaecati veritatis autem, quas veniam unde hic eum consequuntur. Corrupti esse commodi vitae accusamus.</p>
+            <p class="lead textoBranco">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem id doloribus eligendi vitae minus quae incidunt obcaecati veritatis autem, quas veniam unde hic eum consequuntur. Corrupti esse commodi vitae accusamus.</p>
         </div>
     </section>
-    <!--Sobre Mim-->
-    <section class="jumbotron text-center">
-        <div class="conteiner">
+    <!--Depoimento-->
+    <section class="jumbotron text-center" style="background-color: white !important;">
+        <div class="conteiner" id="depoimentos">
             <h2 class="jumbotron-heading text-center titulosVerdes">
                 Depoimentos
             </h2>
@@ -220,9 +223,9 @@
     <!--Contato-->
     <section class="corPrimaria">
         <di>
-            <div class="conteiner-fluid">
-                <h3 class="text-center titulosBrancos">Disponível para oportunidde</h3>
-                <h4 class="text-center">email@email.com</h4>
+            <div class="conteiner-fluid" id="contatos">
+                <h3 style="padding-top: 60px;" class="text-center titulosBrancos">Disponível para oportunidde</h3>
+                <a href="#"><h4 style="padding-bottom: 60px; margin-bottom: 0px;" class="text-center">email@email.com</h4></a>
             </div>
         </di>
     </section>
